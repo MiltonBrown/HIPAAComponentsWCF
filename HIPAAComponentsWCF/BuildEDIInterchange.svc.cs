@@ -79,20 +79,20 @@ namespace HIPAAComponentsWCF
                 strSenderIDQual = dsRawData.Tables[intEDIHeader].Rows[0]["strSenderIDQual"].ToString();
                 strSenderID = dsRawData.Tables[intEDIHeader].Rows[0]["strSenderID"].ToString();
                 strReceiverID = dsRawData.Tables[intEDIHeader].Rows[0]["strReceiverID"].ToString();
-                strReceiverIDQual = dsRawData.Tables[intEDIHeader].Rows[0]["strReceiverIDQaul"].ToString();
+                strReceiverIDQual = dsRawData.Tables[intEDIHeader].Rows[0]["strReceiverIDQual"].ToString();
                 blnAcknowledgement = bool.Parse(dsRawData.Tables[intEDIHeader].Rows[0]["blnAcknowledgement"].ToString());
                 strRepetitionSeparator = dsRawData.Tables[intEDIHeader].Rows[0]["strRepetitionSeparator"].ToString();
                 strElementSeparator = dsRawData.Tables[intEDIHeader].Rows[0]["strElementSeparator"].ToString();
                 strUsage = dsRawData.Tables[intEDIHeader].Rows[0]["strUsage"].ToString();
-                intSubmitterEDIContactID = int.Parse(dsRawData.Tables[intEDIHeader].Rows[0]["SubmitterEDIContactID"].ToString());
-                strContactFunctionCode = dsRawData.Tables[intEDIHeader].Rows[0]["ContactFunctionCode"].ToString();
-                strContactName = dsRawData.Tables[intEDIHeader].Rows[0]["ContactName"].ToString();
-                strCommunicationNumberID = dsRawData.Tables[intEDIHeader].Rows[0]["CommunicationNumberID"].ToString();
-                strCommunicationNumber = dsRawData.Tables[intEDIHeader].Rows[0]["CommunicationNumber"].ToString();
-                strCommunicationNumberID2 = dsRawData.Tables[intEDIHeader].Rows[0]["CommunicationNumberID2"].ToString();
-                strcommunicationNumber2 = dsRawData.Tables[intEDIHeader].Rows[0]["communicationNumber2"].ToString();
-                strCommunicationNumberID3 = dsRawData.Tables[intEDIHeader].Rows[0]["CommunicationNumberID3"].ToString();
-                strcommunicationNumber3 = dsRawData.Tables[intEDIHeader].Rows[0]["CommunicationNumber3"].ToString();
+                intSubmitterEDIContactID = int.Parse(dsRawData.Tables[intEDIHeader].Rows[0]["intSubmitterEDIContactID"].ToString());
+                strContactFunctionCode = dsRawData.Tables[intEDIHeader].Rows[0]["strContactFunctionCode"].ToString();
+                strContactName = dsRawData.Tables[intEDIHeader].Rows[0]["strContactName"].ToString();
+                strCommunicationNumberID = dsRawData.Tables[intEDIHeader].Rows[0]["strCommunicationNumberID"].ToString();
+                strCommunicationNumber = dsRawData.Tables[intEDIHeader].Rows[0]["strCommunicationNumber"].ToString();
+                strCommunicationNumberID2 = dsRawData.Tables[intEDIHeader].Rows[0]["strCommunicationNumberID2"].ToString();
+                strcommunicationNumber2 = dsRawData.Tables[intEDIHeader].Rows[0]["strcommunicationNumber2"].ToString();
+                strCommunicationNumberID3 = dsRawData.Tables[intEDIHeader].Rows[0]["strCommunicationNumberID3"].ToString();
+                strcommunicationNumber3 = dsRawData.Tables[intEDIHeader].Rows[0]["strCommunicationNumber3"].ToString();
                 //************************************************************************************************************
 
                 oBills.DefaultSep = "*";
